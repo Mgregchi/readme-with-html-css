@@ -8,8 +8,12 @@
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			
 			<style>
+				.container {
+					background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
+				}
+				
 				.hero-image {
-				  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("");
+				  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.mgregchi.tk/images/Michael-Amadi.jpg");
 				  height: 50%;
 				  background-position: center;
 				  background-repeat: no-repeat;
@@ -45,12 +49,8 @@
 				
 				
 			</style>
-			<div class="container">
-				<h1>Made with HTML &amp; CSS<br/>not an animated GIF</h1>
-				<p>Click to see the source</p>
-			</div>
 			
-			
+			<div class='container'>
 			<div class="hero-image">
 			  <div class="hero-text">
 			    <h1 style="font-size:50px">I am John Doe</h1>
@@ -61,7 +61,7 @@
 
 			<p>Page Content..</p>	
 			
-			
+			</div>
 			
 		</div>
 	</foreignObject>
